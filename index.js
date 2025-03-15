@@ -418,7 +418,7 @@ if (!methodCodeQR && !methodCode && !fs.existsSync(`./sessions/creds.json`)) {
                         let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; Eliasar YT👑;;;\nFN: Eliasar YT\nORG: Eliasar YT👑\nTITLE:\nitem1.TEL;waid=50582340051:+50582340051\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
                         sock.sendMessage(fucker.from, {
                             contacts: {
-                                displayName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨',
+                                displayName: '✨ hades-bot ✨',
                                 contacts: [{
                                     vcard
                                 }]
@@ -672,7 +672,7 @@ sock.ev.on('group-participants.update', async (anu) => {
 
                     sock.sendMessage(anu.id, {
                         image: response.data,
-                        caption: `✨🌸 ¡Holaaa~ @${username}! 🌸✨\n\n🌟 Por favor, lee la descripción del grupo para evitar malentendidos. ¡No queremos que te eliminen! 🤗💕\n\n💖 Bienvenid@ al grupo: *${groupName}* 💖\n\n📜 *Descripción del grupo:* ${groupDescription} 💬\n\n✨ ¡Disfruta y pásala genial! ✨`,
+                        caption: `✨ ¡Holaaa~ @${username}! ✨\n\n🌟 Por favor, lee la descripción del grupo para evitar malentendidos. ¡No queremos que te eliminen! \n\n❤ Bienvenid@ al grupo: *${groupName}* ❤\n\n📜 *Descripción del grupo:* ${groupDescription} 💬\n\n✨ ¡Disfruta y pásala genial! ✨`,
                         mentions: [num]
                     });
                 } else if (anu.action === "remove") {
@@ -688,7 +688,7 @@ sock.ev.on('group-participants.update', async (anu) => {
                     if (imageBuffer) {
                         sock.sendMessage(anu.id, {
                             image: imageBuffer,
-                            caption: `┌─✶ αทsi-вστ-м∂ 🌟 \n│「 𝗔𝗗𝗜𝗢𝗦 🌸 」\n└┬✶ 「 @${username} 」\n   │✨  𝗦𝗲 𝗳𝘂𝗲\n   │✨ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   └───────────────┈ ⳹`,
+                            caption: `┌─✶ hades-bot 🌟 \n│「 𝗔𝗗𝗜𝗢𝗦 🙋‍♂️ 」\n└┬✶ 「 @${username} 」\n   │✨  𝗦𝗲 𝗳𝘂𝗲\n   │✨ 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   └───────────────┈ ⳹`,
                             mentions: [num]
                         });
                     }
@@ -765,7 +765,7 @@ sock.ev.on('group-participants.update', async (anu) => {
                 console.log(chalk.magenta('iniciando✨...'));
                 console.log(chalk.red('iniciando✨...'));
                 console.log(chalk.blue('iniciando✨...'));
-                say('ANSI\nBOT\nMD', {
+                say('HADES\nBOT\nMD', {
                     font: 'block',
                     align: 'center',
                     colors: ['magenta', 'red']
