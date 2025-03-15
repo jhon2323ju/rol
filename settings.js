@@ -25,7 +25,7 @@ global.blockList = []
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "https://ansibot.netlify.app/"
 global.botname = "✨ hades-bot ✨"
-global.wm = '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨'
+global.wm = '✨ hades-bot ✨'
 global.vs = '𝟮.𝟭'
 global.creador = 'Jhon'
 global.creador2 = 'Jhon'
@@ -44,7 +44,7 @@ global.phoneNumber = ""
 //---------[ FECHA/IDIOMAS ]---------
 global.place = 'America/Managua' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
 global.lenguaje = es //Predeterminado en idioma Español 
-global.prefix = [` `]
+global.prefix = [` . `] [` # `]
 
 //---------[ APIS GLOBAL ]---------
 global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({...query, ...(apikeyqueryname ? {[apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name]} : {})})) : '');
