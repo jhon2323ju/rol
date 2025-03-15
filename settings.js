@@ -13,10 +13,10 @@ const axios = require('axios')
 
 //---------[ PROPIETARIO/OWNER ]---------
 global.owner = [
-    ["50582340051", "Owner", true],
-    ["595984838201"],
-    ["51918534156"],
-    ["123456789"]
+    ["582129443583", "Owner", true],
+    ["584125014664"],
+    [""],
+    [""]
 ]
 global.mods = []
 global.premium = []
@@ -24,11 +24,11 @@ global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "https://ansibot.netlify.app/"
-global.botname = "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
+global.botname = "✨ hades-bot ✨"
 global.wm = '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨'
 global.vs = '𝟮.𝟭'
-global.creador = '𝐸𝐿𝐼𝐴𝑆𝐴𝑅 𝑌𝑇'
-global.creador2 = 'ELIASAR YT'
+global.creador = 'Jhon'
+global.creador2 = 'Jhon'
 global.nunber = Math.floor(Math.random() * (27 - 18 + 1)) + 18;
 
 function pickRandom(array) {
@@ -104,10 +104,10 @@ global.APIs = {
 //---------[ STICKERS ]---------
 global.packname = ""
 global.author = `{
- "bot": "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
-  "autor": "Eliasar YT",
+ "bot": "✨ hades-bot ✨"
+  "autor": "Jhon",
   "version": "1.2",
-  "creador": "Eliasar YT"
+  "creador": "Jhon"
 }
 `
 
